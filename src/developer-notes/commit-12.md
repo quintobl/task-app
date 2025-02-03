@@ -8,7 +8,7 @@ In this commit, I added a way to draw a random number in the UserComponent and s
 
 The purpose of this exercise is to understand what **_string interpolation_** is. String interpolation in Angular is a way of displaying in the template the value of a property from the component. In this case, we are displaying the **_selectedUser_** property in the template of the UserComponent, using double braces that wrap around the property name, like so:
 
-```typescript
+```html
 <div>
   <button>
     <img src="" alt="" />
@@ -23,13 +23,10 @@ It's important to note here that **_selectedUser_** is an object, so we need to 
 
 Another way of displaying data in the template of a component is to use what is called **_property binding_**. We can display a user's name in the UserComponent's template by putting brackets around the **_src_** property of the image tag. This binds the **_selectedUser_** object to the image tag, which will then enable us to display the user's name, avatar, or id on the UI:
 
-```typescript
+```html
 <div>
   <button>
-    <img
-      [src]="'assets/users/' + selectedUser.avatar"
-      [alt]="selectedUser.name"
-    />
+    <img [src]="'assets/users/' + selectedUser.avatar" [alt]="selectedUser.name" />
     <span>{{ selectedUser.name }}</span>
   </button>
 </div>

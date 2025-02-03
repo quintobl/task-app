@@ -8,14 +8,13 @@ We can add an event listener to an HTML element such as a button by adding the e
 
 And in the template, we set the value of the click event to be the function's name, like so:
 
-```typescript
+```html
 <div>
   <button (click)="onSelectUser()">
     <img [src]="imagePath" [alt]="selectedUser.name" />
     <span>{{ selectedUser.name }}</span>
   </button>
 </div>
-
 ```
 
 When the site-user clicks on the button on the UI, the console should log the word, "Clicked!":

@@ -8,14 +8,13 @@ Since the src attribute on the image tag is clunky and can be refactored, I adde
 
 The new getter function will then replace the image tag's src attribute:
 
-```typescript
+```html
 <div>
   <button>
     <img [src]="imagePath" [alt]="selectedUser.name" />
     <span>{{ selectedUser.name }}</span>
   </button>
 </div>
-
 ```
 
 We are still binding to the image tag's src attribute, but we are using a computed getter in the UserComponent instead, keeping our code clean.
