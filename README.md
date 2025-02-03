@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Essentials
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
@@ -29,4 +28,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # task-app
 This is a task app created while going through a Udemy course on the most recent features of Angular.  The course is called Angular - The Complete Guide (2025 Edition), and it is taught by Maximilian Schwarzmüller.
->>>>>>> c13afb784809504dd60925dc470e667d2f63a7ac
