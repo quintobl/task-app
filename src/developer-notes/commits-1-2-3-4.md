@@ -68,18 +68,16 @@ Components are the building blocks of the user interface. They do the following:
 import { Component } from "@angular/core";
 
 @Component({
-  selector: "app-greeting",
-  templateUrl: "./greeting.component.html",
-  styleUrls: ["./greeting.component.css"],
+  selector: "app-root",
+  standalone: true,
+  imports: [],
+  templateUrl: "./app.component.html",
+  styleUrl: "./app.component.css",
 })
-export class GreetingComponent {
-  message: string = "Hello, Angular!";
-
-  changeMessage() {
-    this.message = "You clicked the button!";
-  }
-}
+export class AppComponent {}
 ```
+
+The component decorator adds metadata to the component, and the component is imported from the Angular core library. The decorator converts the class AppComponent to an Angular component.
 
 ### Templates
 
