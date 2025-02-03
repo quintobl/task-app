@@ -1,3 +1,15 @@
+# Task App
+
+This is a task app created while going through a Udemy course on the most recent features of Angular. The course is called Angular - The Complete Guide (2025 Edition), and it is taught by Maximilian Schwarzmüller. The link to the course on Udemy is here: [The Complete Guide (2025 Edition)](https://www.udemy.com/course/the-complete-guide-to-angular-2/).
+The first few commits to this repo consisted of the README.md file, as well as starter files provided by the course instructor.
+I will attempt to explain each concept discussed in the course, as well as the code in each commit, in my own words in **_.md_** files in the **_developer-notes_** folder in this repo.
+The reason I'm taking this course is two-fold:
+
+1. Keep my knowledge of Angular fresh. There's nothing worse than learning a piece of technology but then forgetting how to use it after not working with it for a period of time.
+2. Learn new features of Angular that I haven't used before, such as signals or standalone components.
+
+---
+
 # Essentials
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
